@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    text-shadow: 0 0 10px lime;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(0, 255, 0, 0.1);
+    border: 1px solid lime;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background: rgba(0, 255, 0, 0.3);
+}
